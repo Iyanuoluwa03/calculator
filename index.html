@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="container">
+
+        <div class="toggle">
+            <i class="indicator"></i>
+        </div>
+        
+        <div class="result">
+            <p id="result-box">0</p>
+        </div>
+
+
+
+        <div class="buttons">
+            <div class="button action-btn" id="clear" onclick="Clear()">AC</div>
+            <div class="button action-btn delete" class="del" onclick="del()">DEL</div>
+            <div class="button num-button calc-action-btn" onclick="display('%')">%</div>
+            <div class="button num-button calc-action-btn" onclick="display('/')">/</div>
+            <div class="button num-button seven" onclick="display('7')">7</div>
+            <div class="button num-button eight"  onclick="display('8')">8</div>
+            <div class="button num-button nine"  onclick="display('9')">9</div>
+            <div class="button num-button calc-action-btn"  onclick="display('*')">*</div>
+            <div class="button num-button four"  onclick="display('4')">4</div>
+            <div class="button num-button five"  onclick="display('5')">5</div>
+            <div class="button num-button six"  onclick="display('6')">6</div>
+            <div class="button num-button calc-action-btn"  onclick="display('-')">-</div>
+            <div class="button num-button one"  onclick="display('1')">1</div>
+            <div class="button num-button two"  onclick="display('2')">2</div>
+            <div class="button num-button three"  onclick="display('3')">3</div>
+            <div class="button num-button calc-action-btn"  onclick="display('+')">+</div>
+            <div class="button num-button zero"  onclick="display('0')">0</div>
+            <div class="button num-button point"  onclick="display('.')">.</div>
+            <div class="button num-button calc-action-btn" id="total" onclick="solve()">=</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+
+
+
+    </div>
+
+
+
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/3.1.1/gsap.min.js'></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>
